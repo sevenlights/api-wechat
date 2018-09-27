@@ -27,10 +27,11 @@ repositories {
 dependencies {
 	compile("org.springframework.boot:spring-boot-starter-web")
 	compile("org.springframework.boot:spring-boot-starter")
-	//compile("org.springframework.boot:spring-boot-starter-data-redis")
+	compile("org.springframework.boot:spring-boot-starter-data-redis")
 	compile("org.springframework.boot:spring-boot-starter-test")
 
 	compile("org.apache.commons:commons-lang3:3.7")
+	//compile("com.github.binarywang:weixin-java-miniapp:3.2")
 
 	compile('io.netty:netty-all:4.1.22.Final')
 	compile('com.squareup.okhttp3:okhttp:3.10.0')
@@ -42,7 +43,6 @@ dependencies {
 
 	compile('com.auth0:java-jwt:3.3.0')
 	compile('org.bouncycastle:bcprov-jdk15on:1.59')
-	compile("redis.clients:jedis:2.9.0")
 	compile("org.springframework.boot:spring-boot-starter-data-jpa")
 	compile('com.zaxxer:HikariCP')
 	compile('mysql:mysql-connector-java')
