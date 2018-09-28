@@ -5,7 +5,6 @@ import com.sevenlight.entity.WxLoginInfo;
 import com.sevenlight.util.ResponseUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -28,6 +27,8 @@ public class AccountController {
 
         String sessionKey = null;
         String openId = null;
+        //调用微信接口获取openid和sessionKey
+        //通过openId和sessionKey获取用户信息或判断用户是否已注册
 
 
         return "success";
